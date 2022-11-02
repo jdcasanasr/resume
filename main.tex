@@ -3,7 +3,7 @@
 \usepackage[letterpaper, total={7.5in, 10in}]{geometry}
 \usepackage{multicol}
 \usepackage[T1]{fontenc}
-\usepackage[sfdefault, thin]{roboto}
+\usepackage[sfdefault, light]{roboto}
 \usepackage{fontawesome}
 \usepackage{hyperref}
 
@@ -85,12 +85,14 @@
 			\item Titled \emph{"Dragonfang: An Embedded, General Purpose, RISC-V
 				Based Vector Extension for the Lagarto Hun Processor"}.
 
-			\item Developed a vector extension for the \emph{Lagarto} project
+			\item Developed a vector execution module for the \emph{Lagarto}
+				project
 			(\url{https://www.hub-innovacion.cic.ipn.mx/index.php/bienvenidos}),
-				with segmented functional units in mind rather than multiple
-				lanes.
+				based upon the RISC-V Instruction Set Architecture
+				(\url{https://riscv.org/}), capable of processing multiple
+				elements within a single, 64-bit word.
 
-			\item Based on the latter, designed and implemented the following
+			\item As part of the latter, designed and implemented the following
 				modules, using SystemVerilog:
 
 				\begin{itemize}
@@ -105,8 +107,6 @@
 
 			\item Evaluated functionality for integer modules via testbenches
 				and Modelsim.
-
-			\item Reported results in a thesis work.
 		\end{itemize}
 	\end{minipage}
 
